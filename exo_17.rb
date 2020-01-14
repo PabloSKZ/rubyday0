@@ -1,10 +1,10 @@
-puts "Ton année de naissance : "
+puts "Ton age : "
 print "> "
-year = gets.chomp.to_i
-age = 2020 - year
+age = gets.chomp.to_i
+year = 2020 - age
 age_i = 0
 
-while year < 2021
+while year < 2020
     if age == age_i
         puts "Il y a #{age} ans tu avais la moité de l'âge que tu as aujourd'hui"
     else
